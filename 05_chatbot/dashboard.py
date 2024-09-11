@@ -18,6 +18,9 @@ def display_chat_messages():
 
 def handle_user_input():
     """Handle user input and generate bot response."""
+    # walrus operatro :=
+    # if promt:
+    # prompt=st.chat_input("What is up?")
     if prompt := st.chat_input("What is up?"):
 
         with st.chat_message("user"):
