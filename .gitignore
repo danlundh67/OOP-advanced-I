@@ -162,6 +162,13 @@ cython_debug/
 
 *.DS_Store
 
+#dbeaver
+*.project
+.dbeaver
+
+#duckcb
+*.wal
+
 
 
 experiment_small_data/test/X_test.dat
